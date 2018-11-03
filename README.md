@@ -34,3 +34,8 @@ $ git clone https://github.com/syafiqshuib/LabActivity8.git
 This code can be downloaded and copied without any licenses.
 
 # Screenshots
+
+![alt text](https://github.com/syafiqshuib/LabActivity8/blob/master/screenshot/pic1.PNG)
+![alt text](https://github.com/syafiqshuib/LabActivity8/blob/master/screenshot/pic2.PNG)
+![alt text](https://github.com/syafiqshuib/LabActivity8/blob/master/screenshot/pic3.PNG)
+![alt text](https://github.com/syafiqshuib/LabActivity8/blob/master/screenshot/pic4.PNG)
