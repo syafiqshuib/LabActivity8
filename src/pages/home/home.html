@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+     <ion-title>
+        Employee Detail
+     </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list inset>
+     <ion-item *ngFor="let emp of employee">
+        <p>ID : {{emp.id}}</p>
+        <p>Name : {{emp.name}}</p>
+        <p>Username  : {{emp.username}}</p>
+        <p>Email : {{emp.email}}</p>
+     </ion-item>
+  </ion-list>
+</ion-content>

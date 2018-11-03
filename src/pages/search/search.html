@@ -1,0 +1,46 @@
+<!--
+  Generated template for the SearchPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Public REST API</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-item>
+        <ion-label floating>ID</ion-label>
+        <ion-input type="text" [(ngModel)]="itemId" ></ion-input>
+      </ion-item>
+    <ion-col>
+        <button ion-button round block (click)="vEmployee()" [disabled]="itemId === ''">Search</button>
+     </ion-col>
+
+     <ion-list no-padding>
+        <ion-item >
+           <p>ID : {{empId}}</p>
+           <p>Name : {{empName}}</p>
+           <p>Username  : {{empUsername}}</p>
+           <p>Email : {{empEmail}}</p>
+        </ion-item>
+     </ion-list>
+
+     <ion-footer>
+        <ion-row>
+            <ion-col>
+               <button color="danger" ion-button block (click)="viewEmployee()">View Employee</button>
+            </ion-col>
+         </ion-row>
+    </ion-footer>
+
+</ion-content>
+
+    
+
+
